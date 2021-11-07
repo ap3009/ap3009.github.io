@@ -7,7 +7,7 @@ const generateTarget = () => {
 }
 const compareGuesses = (humanGuess, computerGuess, targetNumber) => {
   if(humanGuess >=10)
-    alert("Please Guess between 0 - 9!");
+    alert("Please guess number between 0 - 9! Computer Won this round!!");
   
   let {compDiff,humanDiff} = getAbsoluteDistance(humanGuess, computerGuess, targetNumber);
   
